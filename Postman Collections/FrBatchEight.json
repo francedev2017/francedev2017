@@ -1334,7 +1334,7 @@
               "mode": "raw",
               "raw": ""
             },
-            "url": "{{endpoint}}/api/node/{{node_223}}/employee/{{employeeId}}",
+            "url": "{{endpoint}}/api/node/{{node_223}}/employee/{{employeeId}}/contract",
             "description": null
           },
           "response": [
