@@ -1205,7 +1205,7 @@
             }
           ],
           "request": {
-            "method": "GET",
+            "method": "PUT",
             "header": [
               {
                 "key": "Authorization",
@@ -1217,7 +1217,7 @@
               }
             ],
             "body": {},
-            "url": "{{endpoint}}/api/node/{{node_223}}/employee/{{employeeId}}/contract",
+            "url": "{{endpoint}}/api/node/{{node_223}}/employee/{{employeeId}}/contract/98652",
             "description": null
           },
           "response": [
