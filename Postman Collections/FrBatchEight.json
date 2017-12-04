@@ -296,7 +296,7 @@
               "mode": "raw",
               "raw": ""
             },
-            "url": "{{endpoint}}/api/node/{{nodeId}}/employee/{{RATwo_FrBatchEight}}",
+            "url": "{{endpoint}}/api/node/{{nodeId}}/employee/{{employeeId}}",
             "description": ""
           },
           "response": [
