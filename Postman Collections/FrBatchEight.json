@@ -1216,7 +1216,186 @@
                 "value": "application/json"
               }
             ],
-            "body": {},
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "[",
+                  "value": "",
+                  "type": "text"
+                },
+                {
+                  "key": "{",
+                  "value": "",
+                  "type": "text"
+                },
+                {
+                  "key": "\"contractId\"",
+                  "value": "98652,",
+                  "type": "text"
+                },
+                {
+                  "key": "\"registerId\"",
+                  "value": "\"10150002\",",
+                  "type": "text"
+                },
+                {
+                  "key": "\"functionId\"",
+                  "value": "10032,",
+                  "type": "text"
+                },
+                {
+                  "key": "\"levelId\"",
+                  "value": "-1,",
+                  "type": "text"
+                },
+                {
+                  "key": "\"functionName\"",
+                  "value": "\"Retail Support\",",
+                  "type": "text"
+                },
+                {
+                  "key": "\"functionCode\"",
+                  "value": "\"VEN\",",
+                  "type": "text"
+                },
+                {
+                  "key": "\"employeeType\"",
+                  "value": "10012,",
+                  "type": "text"
+                },
+                {
+                  "key": "\"employeeTypeAbbr\"",
+                  "value": "\"CDIFT\",",
+                  "type": "text"
+                },
+                {
+                  "key": "\"testPeriod\"",
+                  "value": "\"1900-01-01\",",
+                  "type": "text"
+                },
+                {
+                  "key": "\"workingHours\"",
+                  "value": "200,",
+                  "type": "text"
+                },
+                {
+                  "key": "\"workingDays\"",
+                  "value": "5,",
+                  "type": "text"
+                },
+                {
+                  "key": "\"contractDays\"",
+                  "value": "31,",
+                  "type": "text"
+                },
+                {
+                  "key": "\"hourRate\"",
+                  "value": "null,",
+                  "type": "text"
+                },
+                {
+                  "key": "\"subsidie\"",
+                  "value": "null,",
+                  "type": "text"
+                },
+                {
+                  "key": "\"indicativeRate\"",
+                  "value": "null,",
+                  "type": "text"
+                },
+                {
+                  "key": "\"memo\"",
+                  "value": "\"\",",
+                  "type": "text"
+                },
+                {
+                  "key": "\"nodeId\"",
+                  "value": "\"06b141d8-3bd3-48ba-9b9c-07549739f24b\",",
+                  "type": "text"
+                },
+                {
+                  "key": "\"nodeName\"",
+                  "value": "\"Shop Paris Val dEurope\",",
+                  "type": "text"
+                },
+                {
+                  "key": "\"departmentId\"",
+                  "value": "20,",
+                  "type": "text"
+                },
+                {
+                  "key": "\"departmentName\"",
+                  "value": "\"CUSTOMER SERVICE DESK\",",
+                  "type": "text"
+                },
+                {
+                  "key": "\"inService\"",
+                  "value": "\"2017-09-01\",",
+                  "type": "text"
+                },
+                {
+                  "key": "\"outService\"",
+                  "value": "\"9999-12-31\",",
+                  "type": "text"
+                },
+                {
+                  "key": "\"yearsOfService\"",
+                  "value": "0,",
+                  "type": "text"
+                },
+                {
+                  "key": "\"extraMonthsInService\"",
+                  "value": "0,",
+                  "type": "text"
+                },
+                {
+                  "key": "\"closed\"",
+                  "value": "false,",
+                  "type": "text"
+                },
+                {
+                  "key": "\"contractDayHours\"",
+                  "value": "{},",
+                  "type": "text"
+                },
+                {
+                  "key": "\"weeklyFixedCost\"",
+                  "value": "0,",
+                  "type": "text"
+                },
+                {
+                  "key": "\"externalContractId\"",
+                  "value": "\"\",",
+                  "type": "text"
+                },
+                {
+                  "key": "\"grossRate\"",
+                  "value": "0,",
+                  "type": "text"
+                },
+                {
+                  "key": "\"employeeId\"",
+                  "value": "\"cd4375c5-aeed-4719-bb5e-9794bb4b9657\",",
+                  "type": "text"
+                },
+                {
+                  "key": "\"fromDate\"",
+                  "value": "\"2017-09-01\",",
+                  "type": "text"
+                },
+                {
+                  "key": "\"tillDate\"",
+                  "value": "\"9999-12-31\"",
+                  "type": "text"
+                },
+                {
+                  "key": "}",
+                  "value": "",
+                  "type": "text"
+                }
+              ]
+            },
             "url": "{{endpoint}}/api/node/{{node_223}}/employee/{{employeeId}}/contract/98652",
             "description": null
           },
