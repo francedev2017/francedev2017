@@ -1220,11 +1220,6 @@
               "mode": "formdata",
               "formdata": [
                 {
-                  "key": "[",
-                  "value": "",
-                  "type": "text"
-                },
-                {
                   "key": "{",
                   "value": "",
                   "type": "text"
