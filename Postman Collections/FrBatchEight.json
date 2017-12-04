@@ -1038,7 +1038,7 @@
         },
         {
           "_postman_id": "573b421c-5597-2916-816f-0669f2660053",
-          "name": "Edit contract PasteRequiredEmpID ManusReview FAULTY",
+          "name": "Correct contract RATwp FrBatchEight (10150002) ManusReview",
           "event": [
             {
               "listen": "test",
@@ -1070,7 +1070,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "    {\n        \"contractId\": 98079,\n        \"registerId\": \"10150002\",\n        \"functionId\": 10018,\n        \"levelId\": -1,\n        \"functionName\": \"Cash Office Operative\",\n        \"functionCode\": \"GT\",\n        \"employeeType\": 10012,\n        \"employeeTypeAbbr\": \"CDIFT\",\n       \"workingHours\": 200,\n        \"workingDays\": 5,\n        \"contractDays\": 31,\n        \"hourRate\": null,\n        \"nodeId\": \"06b141d8-3bd3-48ba-9b9c-07549739f24b\",\n        \"departmentId\": 20,\n        \"departmentName\": \"CUSTOMER SERVICE DESK\",\n        \"inService\": \"2017-09-01\",\n        \"outService\": \"9999-12-31\",\n       \"fromDate\": \"2017-09-01\",\n        \"tillDate\": \"9999-12-31\"\n    }\n"
+              "raw": ""
             },
             "url": "{{endpoint}}/api/node/{{node_223}}/employee/0d4b85c6-1a3d-4ac8-ba0f-e7c292aed44d/contract/98079",
             "description": ""
