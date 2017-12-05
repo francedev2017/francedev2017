@@ -552,7 +552,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "  {\r\n  \"employee\" : {\r\n    \"comment\"  : \"This is ignored by the API Post (PG) - use AAFrBatchNine for top of List\",\r\n    \"nodeId\" : \"06b141d8-3bd3-48ba-9b9c-07549739f24b\",\r\n    \"rem registerId\" : 10160004,\r\n    \"nationalityId\" : 62,\r\n    \"address\" : {\r\n      \"countryId\" : 62,\r\n      \"remaddressLine\" : \"\",\r\n      \"city\" : \"\",\r\n      \"zip\" : \"\",\r\n      \"email\" : \"RAone@france.fr\"\r\n    },\r\n    \"firstName\" : \"RAOne\",\r\n    \"lastName\" : \"AAFrBatchNine\"\r\n  },\r\n  \"contract\" : {\r\n    \"registerId\" : 10160004,\r\n    \"comment\"  : \"This is ignored by the API Post (PG) - RA030, CDIFT, Footwear\",\r\n    \"functionId\" : 10032,\r\n    \"employeeType\" : 10012,\r\n    \"workingHours\" : 2100,\r\n    \"workingDays\" : \"5\",\r\n    \"contractDays\" : 31,\r\n    \"departmentId\" : 5,\r\n    \"fromDate\" : \"2017-09-01\",\r\n    \"tillDate\" : \"9999-12-31\"\r\n  },\r\n\r\n  \"assignAllDept\" : false,\r\n  \"fillAvailability\" : false\r\n}"
+              "raw": "  {\r\n  \"employee\" : {\r\n    \"nodeId\" : \"06b141d8-3bd3-48ba-9b9c-07549739f24b\",\r\n    \"registerId\" : 10150002,\r\n    \"nationalityId\" : 62,\r\n    \"address\" : {\r\n      \"countryId\" : 62,\r\n      \"addressLine\" : \"\",\r\n      \"city\" : \"\",\r\n      \"zip\" : \"\",\r\n      \"email\" : null\r\n    },\r\n    \"firstName\" : \"RATwo\",\r\n    \"lastName\" : \"FrBatchEight\"\r\n  },\r\n  \"contract\" : {\r\n    \"registerId\" : 10150002,\r\n    \"comment\"  : \"This is ignored by the API Post (PG) - RA030\",\r\n    \"functionId\" : 10032,\r\n    \"employeeType\" : 10012,\r\n    \"workingHours\" : 200,\r\n    \"workingDays\" : \"5\",\r\n    \"contractDays\" : 31,\r\n    \"departmentId\" : 20,\r\n    \"fromDate\" : \"2017-09-01\",\r\n    \"tillDate\" : \"9999-12-31\"\r\n  },\r\n\r\n  \"assignAllDept\" : false,\r\n  \"fillAvailability\" : false\r\n}"
             },
             "url": "{{endpoint}}/api/node/{{node_223}}/employee/",
             "description": ""
@@ -1452,7 +1452,7 @@
         },
         {
           "_postman_id": "052e4b6f-d508-caa6-ba0b-7520f6693dcd",
-          "name": "GET employee RATwo FrBatchEight (10150002) - Using EmployeeId",
+          "name": "RE get employee RATwo FrBatchEight (10150002)",
           "event": [
             {
               "listen": "test",
@@ -4011,7 +4011,7 @@
         },
         {
           "_postman_id": "d1231910-5988-4162-b6b4-e63186723f33",
-          "name": "All Managers Paris Val dEurope @ 0223",
+          "name": "Managers Paris Val dEurope @ 0223",
           "event": [
             {
               "listen": "test",
@@ -4550,7 +4550,7 @@
               "mode": "raw",
               "raw": ""
             },
-            "url": "{{endpoint}}/api/node/{{node_223}}/employee/b9565d44-624e-47b4-b2ff-5f367a27e6b9",
+            "url": "{{endpoint}}/api/node/{{nodeId}}/employee/b9565d44-624e-47b4-b2ff-5f367a27e6b9",
             "description": ""
           },
           "response": [
@@ -4810,9 +4810,9 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "    {\n    \t\"Comment\": \"Change DepartMent ID\",\n    \t\"contractid\": 98662,\n        \"registerId\": \"10160004\",\n        \"functionId\": 10024,\n        \"employeeType\": 10012,\n        \"workingHours\": 2100,\n        \"workingDays\": 5,\n        \"contractDays\": 31,\n        \"hourRate\": null,\n        \"nodeId\": \"06b141d8-3bd3-48ba-9b9c-07549739f24b\",\n        \"employeeId\": \"{{employeeId}}\",\n        \"departmentId\": 20,\n        \"fromDate\": \"2017-12-03\",\n        \"tillDate\": \"9999-12-31\"\n    }\n"
+              "raw": ""
             },
-            "url": "{{endpoint}}/api/node/{{node_223}}/employee/{{employeeId}}/contract/98079",
+            "url": "{{endpoint}}/api/node/{{node_223}}/employee/0d4b85c6-1a3d-4ac8-ba0f-e7c292aed44d/contract/98079",
             "description": null
           },
           "response": [
