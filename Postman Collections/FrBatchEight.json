@@ -4922,7 +4922,7 @@
               "mode": "raw",
               "raw": "    {\n    \t\"Comment\": \"Change DepartMent ID\",\n    \t\"contractid\": 98662,\n        \"registerId\": \"10160004\",\n        \"functionId\": 10024,\n        \"employeeType\": 10012,\n        \"workingHours\": 2100,\n        \"workingDays\": 5,\n        \"contractDays\": 31,\n        \"hourRate\": null,\n        \"nodeId\": \"06b141d8-3bd3-48ba-9b9c-07549739f24b\",\n        \"employeeId\": \"{{employeeId}}\",\n        \"departmentId\": 20,\n        \"fromDate\": \"2017-12-03\",\n        \"tillDate\": \"9999-12-31\"\n    }\n"
             },
-            "url": "{{endpoint}}/api/node/{{node_223}}/employee/{{employeeId}}/contract/98079",
+            "url": "{{endpoint}}/api/node/{{node_223}}/employee/{{employeeId}}/contract/{{contractId}}",
             "description": null
           },
           "response": [
