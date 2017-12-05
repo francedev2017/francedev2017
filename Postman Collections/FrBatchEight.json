@@ -1452,7 +1452,7 @@
         },
         {
           "_postman_id": "052e4b6f-d508-caa6-ba0b-7520f6693dcd",
-          "name": "RE get employee RATwo FrBatchEight (10150002)",
+          "name": "GET employee RATwo FrBatchEight (10150002) - Using EmployeeId",
           "event": [
             {
               "listen": "test",
@@ -4930,7 +4930,7 @@
         },
         {
           "_postman_id": "42b75f72-4fc3-ac90-e4db-b823dcce3dea",
-          "name": "GET employee ID from RegisterID  RATwo FrBatchEight  (10150002) copy",
+          "name": "GET Contracts  RATwo FrBatchEight  (10150002) - Using EmployeeId",
           "event": [
             {
               "listen": "test",
