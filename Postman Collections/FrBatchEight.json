@@ -1452,7 +1452,7 @@
         },
         {
           "_postman_id": "052e4b6f-d508-caa6-ba0b-7520f6693dcd",
-          "name": "RE get employee RATwo FrBatchEight (10150002)",
+          "name": "GET employee RATwo FrBatchEight (10150002) - Using EmployeeId",
           "event": [
             {
               "listen": "test",
@@ -4550,7 +4550,7 @@
               "mode": "raw",
               "raw": ""
             },
-            "url": "{{endpoint}}/api/node/{{nodeId}}/employee/b9565d44-624e-47b4-b2ff-5f367a27e6b9",
+            "url": "{{endpoint}}/api/node/{{node_223}}/employee/b9565d44-624e-47b4-b2ff-5f367a27e6b9",
             "description": ""
           },
           "response": [
@@ -4810,9 +4810,9 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": ""
+              "raw": "    {\n    \t\"Comment\": \"Change DepartMent ID\",\n    \t\"contractid\": 98662,\n        \"registerId\": \"10160004\",\n        \"functionId\": 10024,\n        \"employeeType\": 10012,\n        \"workingHours\": 2100,\n        \"workingDays\": 5,\n        \"contractDays\": 31,\n        \"hourRate\": null,\n        \"nodeId\": \"06b141d8-3bd3-48ba-9b9c-07549739f24b\",\n        \"employeeId\": \"{{employeeId}}\",\n        \"departmentId\": 20,\n        \"fromDate\": \"2017-12-03\",\n        \"tillDate\": \"9999-12-31\"\n    }\n"
             },
-            "url": "{{endpoint}}/api/node/{{node_223}}/employee/0d4b85c6-1a3d-4ac8-ba0f-e7c292aed44d/contract/98079",
+            "url": "{{endpoint}}/api/node/{{node_223}}/employee/{{employeeId}}/contract/98079",
             "description": null
           },
           "response": [
