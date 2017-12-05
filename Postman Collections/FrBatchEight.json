@@ -4550,7 +4550,7 @@
               "mode": "raw",
               "raw": ""
             },
-            "url": "{{endpoint}}/api/node/{{nodeId}}/employee/b9565d44-624e-47b4-b2ff-5f367a27e6b9",
+            "url": "{{endpoint}}/api/node/{{node_223}}/employee/b9565d44-624e-47b4-b2ff-5f367a27e6b9",
             "description": ""
           },
           "response": [
