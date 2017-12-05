@@ -5067,7 +5067,7 @@
               }
             ],
             "body": {},
-            "url": "{{endpoint}}/api/node/{{node_223}}/employee/search/10150002",
+            "url": "{{endpoint}}/api/node/{{node_223}}/employee/{{employeeId}}/contract",
             "description": null
           },
           "response": [
