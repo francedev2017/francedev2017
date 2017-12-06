@@ -406,7 +406,7 @@
               "mode": "raw",
               "raw": ""
             },
-            "url": "{{endpoint}}/api/node/{{nodeId}}/employee/{{RATwo_FrBatchEight}}",
+            "url": "{{endpoint}}/api/node/{{node_223}}/employee/{{employeeId}}",
             "description": ""
           },
           "response": [
@@ -5040,7 +5040,7 @@
         },
         {
           "_postman_id": "42b75f72-4fc3-ac90-e4db-b823dcce3dea",
-          "name": "GET Contracts  RATwo FrBatchEight  (10150002) - Using EmployeeId",
+          "name": "GET All Contracts  [10150001] - Using EmployeeId - Dec 5",
           "event": [
             {
               "listen": "test",
