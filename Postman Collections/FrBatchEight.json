@@ -3949,43 +3949,6 @@
         "description": ""
       },
       "response": []
-    },
-    {
-      "_postman_id": "ecdb9ec5-171f-857c-ac07-d5530ab4e854",
-      "name": "Node 223 copy",
-      "event": [
-        {
-          "listen": "test",
-          "script": {
-            "type": "text/javascript",
-            "exec": [
-              "var data = JSON.parse(responseBody);",
-              "postman.setEnvironmentVariable(\"nodeId\", data['id']);",
-              "tests[\"Status code is 200\"] = responseCode.code === 200;"
-            ]
-          }
-        }
-      ],
-      "request": {
-        "method": "GET",
-        "header": [
-          {
-            "key": "Authorization",
-            "value": "Bearer {{token}}"
-          },
-          {
-            "key": "Accept",
-            "value": "application/json"
-          }
-        ],
-        "body": {
-          "mode": "raw",
-          "raw": ""
-        },
-        "url": "{{endpoint}}/api/node/{{node_223}}",
-        "description": null
-      },
-      "response": []
     }
   ]
 }
