@@ -918,7 +918,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"Comment\": \"Change the LastName\",\n    \"inService\": \"2017-07-01\",\n    \"outService\": \"9999-12-31\",\n    \"functionId\": 10032,\n    \"functionName\": \"Retail Support\",\n    \"functionCode\": \"VEN\",\n    \"employeeType\": 10018,\n    \"employeeTypeCode\": \"CDIFT\",\n    \"workingHours\": 205,\n    \"fromDate\": \"2017-07-01\",\n    \"toDate\": \"9999-12-31\",\n    \"nodeId\": \"06b141d8-3bd3-48ba-9b9c-07549739f24b\",\n    \"employeeId\": \"{{employeeId}}\",\n    \"nationalityId\": 63,\n    \"address\": {\n        \"addressId\": 0,\n        \"countryId\": 64,\n        \"zip\": \"\"\n    },\n     \"lastName\": \"RATwoAmended5\"\n     \n  }\n"
+              "raw": "{\n  \"Comment\": \"Change the FirstName\",\n    \"inService\": \"2017-07-01\",\n    \"outService\": \"9999-12-31\",\n    \"functionId\": 10032,\n    \"employeeType\": 10018,\n    \"workingHours\": 205,\n    \"employeeId\": \"{{employeeId}}\",\n    \"rememployeeId\": \"6784a52d-673f-480a-b84f-3faf40fba03b\",\n    \"nodeId\": \"06b141d8-3bd3-48ba-9b9c-07549739f24b\",\n    \"nationalityId\": 63,\n    \"address\": {\n        \"addressId\": 0,\n        \"countryId\": 64,\n        \"zip\": \"\"\n    },\n     \"firstName\": \"Amended\"\n     \n  }\n"
             },
             "url": "{{endpoint}}/api/node/{{node_223}}/employee/{{employeeId}}",
             "description": "Note this method only updates fields in employee object.\nContract object has it's own endpoints."
@@ -5505,7 +5505,7 @@
               "mode": "raw",
               "raw": ""
             },
-            "url": "{{endpoint}}/api/node/{{nodeId}}/employee{{employeeId}}",
+            "url": "{{endpoint}}/api/node/{{node_223}}/employee/{{employeeId}}",
             "description": null
           },
           "response": [
@@ -5740,7 +5740,8 @@
               "script": {
                 "type": "text/javascript",
                 "exec": [
-                  "var data = JSON.parse(responseBody);",
+                  "var jsonData = JSON.parse(responseBody);",
+                  "postman.setEnvironmentVariable(\"employeeId\", jsonData);",
                   "tests[\"Status code is 200\"] = responseCode.code === 200;",
                   ""
                 ]
